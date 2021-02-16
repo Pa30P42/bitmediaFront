@@ -1,0 +1,67 @@
+.pagination {
+  width: 320px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.pageLinkClassName {
+  cursor: pointer;
+  display: block;
+  outline: none;
+}
+.pagesPagination {
+  width: 272px;
+}
+
+.breakLabel {
+  display: none;
+}
+.pageName {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 48px;
+}
+.active {
+  background-color: #3a80ba;
+  color: #ffffff;
+}
+
+.nextLink {
+  cursor: pointer;
+  outline: none;
+  display: block;
+  width: 28px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../assets//images//right.svg);
+}
+.previousLink {
+  cursor: pointer;
+  outline: none;
+  display: block;
+  background-image: url(../../assets//images//left.svg);
+  width: 28px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* previousLabel={"previous"}
+      nextLabel={"next"}
+      breakLabel={"..."}
+      breakClassName={"break-me"}
+      // pageCount={this.state.pageCount}
+      //   pageCount={allPages}
+      marginPagesDisplayed={2}
+      pageRangeDisplayed={5}
+      //   onPageChange={this.handlePageClick}
+      containerClassName={"pagination"}
+      subContainerClassName={"pages pagination"}
+      activeClassName={"active"} */
